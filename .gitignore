@@ -1,0 +1,22 @@
+﻿# Ignore node_modules folder
+node_modules
+
+platforms
+
+config.js
+
+config.xml
+
+.plist
+
+.npmignore
+
+.DS_Store
+
+plugins
+
+res
+
+simulation
+
+.idea

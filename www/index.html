@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <style>
+        ons-input {
+            width:90%;
+        }
+    </style>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="cordova.js"></script>
+  <script type="text/javascript" charset="utf-8">
+
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    function onDeviceReady() {
+        FCMPlugin.getToken(function(token){
+            console.log(token);
+        });
+    }
+
+    </script>
+
+  <title>Zion App</title>
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="bundle.js"></script>
+</body>
+</html>
