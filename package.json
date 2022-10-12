@@ -9,11 +9,11 @@
     "build": "webpack"
   },
   "dependencies": {
-    "cordova-android": "^6.3.0",
-    "cordova-browser": "^5.0.0",
+    "cordova-android": "^11.0.0",
+    "cordova-browser": "^6.0.0",
     "cordova-deviceready": "^1.0.0",
     "cordova-hot-code-push-plugin": "^1.5.3",
-    "cordova-ios": "^4.5.4",
+    "cordova-ios": "^6.2.0",
     "cordova-plugin-fcm": "^2.1.2",
     "cordova-plugin-secure-storage": "^2.6.8",
     "cordova-plugin-sslcertificatechecker": "^6.0.0",
